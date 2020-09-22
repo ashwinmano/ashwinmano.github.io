@@ -30,15 +30,6 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://AshwinManohar@bitbucket.org/AshwinManohar/weather_app.git', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: 'weather.JPG',
     title: 'Weater App',
     info: '',
