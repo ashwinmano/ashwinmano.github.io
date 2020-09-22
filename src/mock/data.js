@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Ashwin', // e.g: 'Name | Developer'
+  lang: 'English,Tamil,Telugu,kanada,Hindi', // e.g: en, es, fr, jp
+  description: 'Welcome to my Website', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -17,11 +17,13 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'myprofile.jpg',
+  paragraphOne:
+    "I am a self-taught  developer with a strong eye for innovative technologies  and a keen understanding of techniques geared towards Blockchain technology  and Open source software's  deveopment ",
+  paragraphTwo: 'Click to View my Resume',
+  paragraphThree: '.',
+  resume:
+    'https://www.canva.com/design/DAD-k0v4IX4/DGsJaQ1xG-WMw3WPjHm1zw/view?utm_content=DAD-k0v4IX4&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -33,25 +35,25 @@ export const projectsData = [
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://AshwinManohar@bitbucket.org/AshwinManohar/weather_app.git', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'weather.JPG',
+    title: 'Weater App',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://AshwinManohar@bitbucket.org/AshwinManohar/weather_app.git',
+    repo: 'https://AshwinManohar@bitbucket.org/AshwinManohar/weather_app.git', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'food.JPG',
+    title: 'Receipe App',
+    info: 'Get the Receipe of any dish in the World',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/ashwinmano/foodhub', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +61,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'ashwinmanohar@science.christuniversity.in',
 };
 
 // FOOTER DATA
@@ -72,23 +74,18 @@ export const footerData = {
     },
     {
       id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/ashwin-manohar-a32453154/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/ashwinmano/resume',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
