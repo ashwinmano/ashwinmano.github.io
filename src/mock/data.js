@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'myprofile.jpg',
+  img: 'formal.jpg',
   paragraphOne:
     "I am a self-taught  developer with a strong eye for innovative technologies  and a keen understanding of techniques geared towards Blockchain technology  and Open source software's  deveopment ",
   paragraphTwo:
