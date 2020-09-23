@@ -45,7 +45,7 @@ const Projects = () => {
                       <div>
                         <p>
                           {info ||
-                            'This a Weather App Which gives u the weather of any place in the world'}
+                            'This a Weather App  with a simple UI which gives you the weather of any city in the world'}
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>

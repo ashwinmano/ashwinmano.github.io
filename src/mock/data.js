@@ -45,7 +45,7 @@ export const projectsData = [
     title: 'Receipe App',
     info: 'Get the Receipe of any dish in the World',
     info2: '',
-    url: '',
+    url: 'https://app.netlify.com/sites/naughty-bohr-cd8d6a/overview',
     repo: 'https://github.com/ashwinmano/foodhub',
   },
 ];
